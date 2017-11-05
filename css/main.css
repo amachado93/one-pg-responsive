@@ -1,4 +1,5 @@
 /* == CSS reset == */
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,11 +22,27 @@ time, mark, audio, {
 	vertical-align: baseline;
 }
 
-/* Global settings */
+
+/* == Global settings == */
 body {
   font-size: 1em;
   font-family: sans-serif, Arial;
+  margin: 0 auto;
+  width: 80%;
 
 }
 
+li {
+  list-style-type: none;
+}
+
 /* == Header == */
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
