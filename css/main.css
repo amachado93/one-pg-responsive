@@ -29,6 +29,8 @@ body {
   font-family: sans-serif, Arial;
   margin: 0 auto;
   width: 80%;
+  color: #3f3f3f;
+  box-sizing: border-box;
 
 }
 
@@ -36,13 +38,28 @@ li {
   list-style-type: none;
 }
 
+a {
+  color: #3f3f3f;
+  text-decoration: none;
+}
+
 /* == Header == */
 nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  background-color: #3f3f3f;
+  height: 5em;
 }
 
 nav ul {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 15px 25px;
+  border: 1px solid #646d7c;
+  margin: 5px;
 }
