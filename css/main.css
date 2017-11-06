@@ -28,7 +28,6 @@ body {
   font-size: 1em;
   font-family: sans-serif, Arial;
   margin: 0 auto;
-  width: 80%;
   color: #3f3f3f;
   box-sizing: border-box;
 
@@ -49,6 +48,10 @@ nav{
   justify-content: center;
   background-color: #3f3f3f;
   height: 5em;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+
 }
 
 nav ul {
@@ -62,4 +65,11 @@ nav a {
   padding: 15px 25px;
   border: 1px solid #646d7c;
   margin: 5px;
+}
+
+/* == Main == */
+
+main {
+  margin: 5em auto;
+  width: 80%;
 }
