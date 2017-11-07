@@ -23,14 +23,13 @@ time, mark, audio, {
 }
 
 
-/* == Global settings == */
+/* == Global Settings == */
 body {
   font-size: 1em;
   font-family: sans-serif, Arial;
   margin: 0 auto;
   color: #3f3f3f;
   box-sizing: border-box;
-
 }
 
 li {
@@ -42,16 +41,22 @@ a {
   text-decoration: none;
 }
 
+h1, h4 {
+  color: #ffffff;
+}
+
 /* == Header == */
+header {
+  background-color: #3f3f3f;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+
 nav{
   display: flex;
   justify-content: center;
-  background-color: #3f3f3f;
   height: 5em;
-  position: fixed;
-  width: 100%;
-  top: 0px;
-
 }
 
 nav ul {
@@ -72,4 +77,12 @@ nav a {
 main {
   margin: 5em auto;
   width: 80%;
+}
+
+.intro {
+  width: 100%;
+  background-color: #3f3f3f;
+  background-image: url(/img/bigimage1.jpg);
+  background-size: cover;
+  background-position: center;
 }
