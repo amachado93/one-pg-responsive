@@ -93,13 +93,7 @@ nav a {
   }
 }
 
-/* == Main == */
-
-main {
-  margin: 5em auto;
-  width: 80%;
-}
-
+/* == intro and Main == */
 .intro {
   background-image: url(/img/bigimage1.jpg);
   background-size: cover;
@@ -109,4 +103,26 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+main {
+  margin: 5em auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-group img {
+  width: 100%;
+}
+
+div div {
+  background-color: #dddddd;
 }
