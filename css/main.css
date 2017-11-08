@@ -72,6 +72,27 @@ nav a {
   margin: 5px;
 }
 
+@media (min-width: 786px) {
+  nav{
+    display: flex;
+    justify-content: center;
+    height: 5em;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+
+  nav a {
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 15px 25px;
+    border: 1px solid #646d7c;
+    margin: 5px;
+  }
+}
+
 /* == Main == */
 
 main {
@@ -80,9 +101,12 @@ main {
 }
 
 .intro {
-  width: 100%;
-  background-color: #3f3f3f;
   background-image: url(/img/bigimage1.jpg);
   background-size: cover;
   background-position: center;
+  height: 25em;
+  padding-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
