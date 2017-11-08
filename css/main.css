@@ -113,6 +113,19 @@ main {
   align-items: center;
 }
 
+main a {
+  border-radius: 4px;
+  padding: 10px;
+  border: 1px solid #644d7c;
+  margin: 5px;
+
+
+}
+
+div {
+  margin-bottom: 1em;
+}
+
 .first-group {
   display: flex;
   flex-direction: column;
