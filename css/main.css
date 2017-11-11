@@ -146,3 +146,8 @@ img {
   width: 320px;
   text-align: center;
 }
+
+.contact-content {
+  background-image: url(/img/bigimage3.jpg);
+  color: #ffffff;
+}
