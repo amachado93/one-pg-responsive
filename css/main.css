@@ -30,6 +30,7 @@ body {
   margin: 0 auto;
   color: #3f3f3f;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 li {
@@ -118,8 +119,6 @@ main a {
   padding: 10px;
   border: 1px solid #644d7c;
   margin: 5px;
-
-
 }
 
 div div {
@@ -139,4 +138,11 @@ div {
 
 img {
   width: 100%;
+}
+
+.our-services {
+  background-image: url(/img/bigimage2.jpg);
+  height: 24em;
+  width: 320px;
+  text-align: center;
 }
