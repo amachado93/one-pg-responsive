@@ -122,6 +122,11 @@ main a {
 
 }
 
+div div {
+  background-color: #dddddd;
+  padding-bottom: 2em;
+}
+
 div {
   margin-bottom: 1em;
 }
@@ -132,10 +137,6 @@ div {
   align-items: center;
 }
 
-.first-group img {
+img {
   width: 100%;
-}
-
-div div {
-  background-color: #dddddd;
 }
