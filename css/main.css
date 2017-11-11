@@ -151,3 +151,37 @@ img {
   background-image: url(/img/bigimage3.jpg);
   color: #ffffff;
 }
+
+/* == Large screen styling == */
+
+@media (min-width: 786px) {
+  main {
+    margin: 5em auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  div div {
+    margin: 1em;
+  }
+
+  .first-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .first-group img {
+    width: 50%;
+  }
+
+  .second-group {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+
+}
