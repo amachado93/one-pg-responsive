@@ -42,8 +42,13 @@ a {
   text-decoration: none;
 }
 
+h1 {
+	font-size: 4em;
+}
+
 h1, h4 {
   color: #ffffff;
+  text-shadow: 1px 1px 2px black;
 }
 
 /* == Header == */
@@ -99,7 +104,7 @@ nav a {
   background-image: url(/img/bigimage1.jpg);
   background-size: cover;
   background-position: center;
-  height: 25em;
+  height: 32em;
   padding-top: 5em;
   display: flex;
   flex-direction: column;
@@ -155,12 +160,15 @@ img {
 /* == Large screen styling == */
 
 @media (min-width: 786px) {
-  main {
-    margin: 5em auto;
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+	.intro {
+		height: 38em;
+	}
+
+
+	main {
+		display: flex;
+    margin: 0 auto;
+    width: 100%;
   }
 
   div div {
@@ -180,8 +188,31 @@ img {
   .second-group {
     display: flex;
     flex-direction: row;
-
   }
+
+  .second-group img {
+    width: 60%;
+  }
+
+  .our-services {
+    width: 1200px;
+		height: 40em;
+  }
+
+	.our-services p {
+		text-align: center;
+		width: 60%;
+		font-size: 1.5em;
+	}
+
+  .third-group {
+    display: flex;
+    flex-direction: row;
+  }
+
+	.big-paragraph {
+		background-color: #dddddd;
+	}
 
 
 }
