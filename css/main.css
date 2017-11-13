@@ -33,6 +33,10 @@ body {
   scroll-behavior: smooth;
 }
 
+h2 {
+	text-align: center;
+}
+
 li {
   list-style-type: none;
 }
@@ -164,7 +168,6 @@ img {
 		height: 38em;
 	}
 
-
 	main {
 		display: flex;
     margin: 0 auto;
@@ -179,19 +182,12 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  .first-group img {
-    width: 50%;
+		width: 80%;
   }
 
   .second-group {
     display: flex;
     flex-direction: row;
-  }
-
-  .second-group img {
-    width: 60%;
   }
 
   .our-services {
