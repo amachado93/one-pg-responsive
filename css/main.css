@@ -151,6 +151,8 @@ img {
 
 .our-services {
   background-image: url(/img/bigimage2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
   height: 24em;
   width: 320px;
   text-align: center;
@@ -198,11 +200,13 @@ img {
   .our-services {
     width: 100%;
 		height: 40em;
+		text-align: center;
+
   }
 
 	.our-services p {
-		text-align: center;
 		width: 60%;
+		margin: 0 auto;
 		font-size: 1.5em;
 	}
 
