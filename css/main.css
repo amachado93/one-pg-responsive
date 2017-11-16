@@ -160,12 +160,21 @@ img {
 
 .big-paragraph {
 	background-color: #dddddd;
+	padding-bottom: 2em;
+}
+
+.fourth-group {
+	background-image: url(/img/bigimage3.jpg);
+	background-color: transparent;
 }
 
 .contact-content {
-  background-image: url(/img/bigimage3.jpg);
-  color: #ffffff;
 	text-align: center;
+}
+
+form.contact-form {
+	display: flex;
+	justify-content: space-around;
 }
 
 /* == Large screen styling == */
@@ -218,7 +227,6 @@ img {
 	.big-paragraph {
 		width: 80%;
 		text-align: center;
-		padding-bottom: 2em;
 	}
 
 	.big-paragraph p {
