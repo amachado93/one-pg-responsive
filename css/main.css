@@ -69,6 +69,22 @@ nav{
   height: 5em;
 }
 
+.hamburger {
+  cursor: pointer;
+  padding: 15px;
+  display: block;
+}
+
+.line {
+  border-bottom: 4px solid #bbb;
+  width: 35px;
+  margin-bottom: 6px;
+}
+
+.line:last-child {
+	margin-bottom: 0;
+}
+
 nav ul {
   display: flex;
   align-items: center;
