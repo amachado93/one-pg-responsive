@@ -105,7 +105,7 @@ nav a {
 
 /* == intro and Main == */
 .intro {
-  background-image: url(img/bigimage1.jpg);
+  background-image: url(/one-pg-responsive/img/bigimage1.jpg);
   background-size: cover;
   background-position: center;
   height: 32em;
@@ -150,7 +150,7 @@ img {
 }
 
 .our-services {
-  background-image: url(img/bigimage2.jpg);
+  background-image: url(/one-pg-responsive/img/bigimage2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
   height: 24em;
@@ -164,7 +164,7 @@ img {
 }
 
 .fourth-group {
-	background-image: url(img/bigimage3.jpg);
+	background-image: url(/one-pg-responsive/img/bigimage3.jpg);
 	background-color: transparent;
 }
 
