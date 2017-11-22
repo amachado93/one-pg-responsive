@@ -130,7 +130,7 @@ main a {
   margin: 5px;
 }
 
-div div {
+section div {
   background-color: #dddddd;
   padding-bottom: 2em;
 }
@@ -190,7 +190,7 @@ form.contact-form {
     width: 100%;
   }
 
-  div div {
+  section div {
     margin: 1em;
   }
 
@@ -210,7 +210,6 @@ form.contact-form {
     width: 100%;
 		height: 40em;
 		text-align: center;
-
   }
 
 	.our-services p {
@@ -234,5 +233,5 @@ form.contact-form {
 		margin: 0 auto;
 		margin-bottom: 2em;
 	}
-
+	
 }
