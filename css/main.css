@@ -66,9 +66,16 @@ nav{
   align-items: center;
 }
 
+nav li {
+	padding: 10px;
+}
+
 nav a {
   color: #ffffff;
-  padding: 15px 25px;
+  padding: 5px 10px;
+	border-radius: 4px;
+	border: 1px solid #646d7c;
+	margin: 5px;
 }
 
 @media (min-width: 786px) {
