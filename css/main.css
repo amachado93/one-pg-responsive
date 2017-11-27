@@ -167,7 +167,7 @@ img {
 
 .fourth-group {
 	background-image: url(/one-pg-responsive/img/bigimage3.jpg);
-	background-color: transparent;
+	background: none;
 }
 
 .contact-content {
@@ -177,6 +177,19 @@ img {
 form.contact-form {
 	display: flex;
 	justify-content: space-around;
+}
+
+input {
+	background: none;
+	padding: 1em;
+}
+
+textarea {
+	width: 400px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	background: none;
 }
 
 /* == Large screen styling == */
@@ -235,5 +248,5 @@ form.contact-form {
 		margin: 0 auto;
 		margin-bottom: 2em;
 	}
-	
+
 }
