@@ -172,11 +172,17 @@ img {
 
 .contact-content {
 	text-align: center;
+	width: 80%;
+	margin: 0 auto;
 }
 
 form.contact-form {
 	display: flex;
 	justify-content: space-around;
+}
+
+.form, .form-left, .form-right {
+	background: none;
 }
 
 input {
